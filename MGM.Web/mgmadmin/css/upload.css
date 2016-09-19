@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+
+.UploadBoxStyle{float: left; margin:50px 100px; width: 740px;}
+
+.UploadBox{border: solid 1px #acacac; border-radius: 5px;}
+
+.UploadList{float: left; width: 100%; height: auto;max-height: 280px;}
+
+.UploadImg{float: left; width: 118px; height: 118px; border: solid 1px #ACACAC; margin-right:20px; /*margin-bottom:20px;*/ position: relative;text-align: center; }
+
+.UploadImg>img{max-width: 100%; max-height: 100%;position: absolute;left: 0;right: 0;top: 0;bottom: 0; margin: auto;}
+
+.delImg{width: 25px; height: 25px; position: absolute;top: -13px;right: -13px;z-index: 99;}
+.delImg > img{width: 100%; height: 100%;}
+
+
+.UploadAdd{float: left; width: 120px; height: 120px; overflow: hidden;}
+
+
+.UploadBtn{float: left; width: 100%; height: 50px; border-top: solid 1px #ACACAC;}
+
+.UploadBtn ul{width: 100%; height: 100%;}
+.UploadBtn li{list-style: none;}
+.UploadBtn li:first-child{float: left;height: 100%;}
+.UploadBtn li:first-child p{font-size: 12px; color: red;line-height: 50px;padding-left: 15px;}
+.UploadBtn li:last-child{float: right;height: 100%;height: 30px;margin-top: 10px;margin-right: 20px;}
+
+
+input[type=file].UploadFiled{display: none;}
+

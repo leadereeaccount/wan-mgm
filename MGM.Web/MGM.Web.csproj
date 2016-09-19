@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC3AC8D7-AA53-4836-9A3B-6702B746B641}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MGM.Web</RootNamespace>
+    <AssemblyName>MGM.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LitJSON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Project\Company\11 客户网站展示系统\04源码\ShowClient\ShowClient\bin\LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net40\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.1.0\lib\net40\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0\lib\net40\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0\lib\net40\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.1.0\lib\net40\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.1.0\lib\net40\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.1.0\lib\net40\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Diagnostics.Tracing.EventSource, Version=1.1.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.28\lib\net40\Microsoft.Diagnostics.Tracing.EventSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.4.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Project\Company\240 重阳投资\中秋活动\04源码\MidAutumn\Bin\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO, Version=2.6.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\net40\System.IO.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime, Version=2.6.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks, Version=2.6.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Threading.Tasks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="img\index\indexbg.jpg" />
+    <Content Include="img\index\indexbtn1.png" />
+    <Content Include="img\index\indexbtn2.png" />
+    <Content Include="img\message\btndetailbg.png" />
+    <Content Include="img\message\btnOk.png" />
+    <Content Include="img\message\cardIdico.png" />
+    <Content Include="img\message\logoimg.png" />
+    <Content Include="img\message\messagebg.jpg" />
+    <Content Include="img\message\messagetopimg.png" />
+    <Content Include="img\message\nameico.png" />
+    <Content Include="img\message\recnameico.png" />
+    <Content Include="img\message\telico1.png" />
+    <Content Include="img\message\zhizhaoico.png" />
+    <Content Include="img\message\zhizhaoimg.png" />
+    <Content Include="img\remark\detailico.png" />
+    <Content Include="img\remark\remarkbg1.jpg" />
+    <Content Include="img\remark\remarkbg2.jpg" />
+    <Content Include="img\remark\remarkbtn1.png" />
+    <Content Include="img\remark\rewardbg.jpg" />
+    <Content Include="img\remark\shareico.png" />
+    <Content Include="img\remark\shareimg.png" />
+    <Content Include="img\remark\shareimgico.jpg" />
+    <Content Include="img\reward\appewmimg.jpg" />
+    <Content Include="img\reward\quding.png" />
+    <Content Include="img\reward\recommend.png" />
+    <Content Include="img\reward\recommend1.png" />
+    <Content Include="img\reward\rewardbg.jpg" />
+    <Content Include="img\telfind\btnOkbg.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\Validform_v5.3.2.js" />
+    <Content Include="message.aspx" />
+    <Content Include="mgmadmin\css\Add.css" />
+    <Content Include="mgmadmin\css\bootstrap.min.css" />
+    <Content Include="mgmadmin\css\flat-ui.min.css" />
+    <Content Include="mgmadmin\css\font-awesome-ie7.css" />
+    <Content Include="mgmadmin\css\font-awesome-ie7.min.css" />
+    <Content Include="mgmadmin\css\font-awesome.css" />
+    <Content Include="mgmadmin\css\font-awesome.min.css" />
+    <Content Include="mgmadmin\css\index.css" />
+    <Content Include="mgmadmin\css\inputStyle.css" />
+    <Content Include="mgmadmin\css\laydate.css" />
+    <Content Include="mgmadmin\css\List.css" />
+    <Content Include="mgmadmin\css\message.css" />
+    <Content Include="mgmadmin\css\pagination.css" />
+    <Content Include="mgmadmin\css\style.css" />
+    <Content Include="mgmadmin\css\upload.css" />
+    <Content Include="mgmadmin\font\fontawesome-webfont.svg" />
+    <Content Include="mgmadmin\img\AddImgBtn.png" />
+    <Content Include="mgmadmin\img\delImgico.png" />
+    <Content Include="mgmadmin\img\errorimg1.png" />
+    <Content Include="mgmadmin\img\errorimg2.png" />
+    <Content Include="mgmadmin\img\font\fontawesome-webfont.svg" />
+    <Content Include="mgmadmin\img\gou.png" />
+    <Content Include="mgmadmin\img\leftico.png" />
+    <Content Include="mgmadmin\img\leftico01.png" />
+    <Content Include="mgmadmin\img\leftico02.png" />
+    <Content Include="mgmadmin\img\leftico03.png" />
+    <Content Include="mgmadmin\img\leftico04.png" />
+    <Content Include="mgmadmin\img\light.png" />
+    <Content Include="mgmadmin\img\list.gif" />
+    <Content Include="mgmadmin\img\list1.gif" />
+    <Content Include="mgmadmin\img\list2.png" />
+    <Content Include="mgmadmin\img\loginlogo.png" />
+    <Content Include="mgmadmin\img\login_bg.png" />
+    <Content Include="mgmadmin\img\login_contentbg.png" />
+    <Content Include="mgmadmin\img\logo.png" />
+    <Content Include="mgmadmin\img\navbg.png" />
+    <Content Include="mgmadmin\img\sj.png" />
+    <Content Include="mgmadmin\img\sj1.png" />
+    <Content Include="mgmadmin\img\sun.png" />
+    <Content Include="mgmadmin\img\temp\loginlogo.png" />
+    <Content Include="mgmadmin\img\temp\login_small.png" />
+    <Content Include="mgmadmin\img\temp\Logo1.jpg" />
+    <Content Include="mgmadmin\img\time.png" />
+    <Content Include="mgmadmin\img\typography.jpg" />
+    <Content Include="mgmadmin\img\user_ico.png" />
+    <Content Include="mgmadmin\img\user_pass.png" />
+    <Content Include="mgmadmin\js\application.js" />
+    <Content Include="mgmadmin\js\bootstrap.min.js" />
+    <Content Include="mgmadmin\js\flat-ui.min.js" />
+    <Content Include="mgmadmin\js\jquery-1.11.1.min.js" />
+    <Content Include="mgmadmin\js\jquery.admin.js" />
+    <Content Include="mgmadmin\js\jquery.form.js" />
+    <Content Include="mgmadmin\js\jquery.form.min.js" />
+    <Content Include="mgmadmin\js\jquery.leadinupload.js" />
+    <Content Include="mgmadmin\js\jquery.message.js" />
+    <Content Include="mgmadmin\js\jquery.pagination.js" />
+    <Content Include="mgmadmin\js\jquery.uploadfile-add.js" />
+    <Content Include="mgmadmin\js\jquery.uploadfile.js" />
+    <Content Include="mgmadmin\js\laydate.js" />
+    <Content Include="mgmadmin\js\need\laydate.css" />
+    <Content Include="mgmadmin\js\skins\dahong\icon.png" />
+    <Content Include="mgmadmin\js\skins\dahong\laydate.css" />
+    <Content Include="mgmadmin\js\skins\danlan\icon.png" />
+    <Content Include="mgmadmin\js\skins\danlan\laydate.css" />
+    <Content Include="mgmadmin\js\skins\default\icon.png" />
+    <Content Include="mgmadmin\js\skins\default\laydate.css" />
+    <Content Include="mgmadmin\js\skins\molv\icon.png" />
+    <Content Include="mgmadmin\js\skins\molv\laydate.css" />
+    <Content Include="mgmadmin\js\skins\qianhuang\icon.png" />
+    <Content Include="mgmadmin\js\skins\qianhuang\laydate.css" />
+    <Content Include="mgmadmin\js\skins\yahui\icon.png" />
+    <Content Include="mgmadmin\js\skins\yahui\laydate.css" />
+    <Content Include="mgmadmin\js\skins\yalan\icon.png" />
+    <Content Include="mgmadmin\js\skins\yalan\laydate.css" />
+    <Content Include="mgmadmin\js\Validform_v5.3.2.js" />
+    <Content Include="mgmadmin\LInkOrder\List.aspx" />
+    <Content Include="mgmadmin\Login.aspx" />
+    <Content Include="mgmadmin\skins\dahong\icon.png" />
+    <Content Include="mgmadmin\skins\dahong\laydate.css" />
+    <Content Include="mgmadmin\skins\danlan\icon.png" />
+    <Content Include="mgmadmin\skins\danlan\laydate.css" />
+    <Content Include="mgmadmin\skins\default\icon.png" />
+    <Content Include="mgmadmin\skins\default\laydate.css" />
+    <Content Include="mgmadmin\skins\molv\icon.png" />
+    <Content Include="mgmadmin\skins\molv\laydate.css" />
+    <Content Include="mgmadmin\skins\qianhuang\icon.png" />
+    <Content Include="mgmadmin\skins\qianhuang\laydate.css" />
+    <Content Include="mgmadmin\skins\yahui\icon.png" />
+    <Content Include="mgmadmin\skins\yahui\laydate.css" />
+    <Content Include="mgmadmin\skins\yalan\icon.png" />
+    <Content Include="mgmadmin\skins\yalan\laydate.css" />
+    <Content Include="remark.aspx" />
+    <Content Include="reward.aspx" />
+    <Content Include="scripts\ai.0.22.19-build00125.js" />
+    <Content Include="scripts\ai.0.22.19-build00125.min.js" />
+    <Content Include="telfind.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\LookNumDemo.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="message.aspx.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="message.aspx.designer.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mgmadmin\LInkOrder\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mgmadmin\LInkOrder\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mgmadmin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mgmadmin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="remark.aspx.cs">
+      <DependentUpon>remark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="remark.aspx.designer.cs">
+      <DependentUpon>remark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reward.aspx.cs">
+      <DependentUpon>reward.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reward.aspx.designer.cs">
+      <DependentUpon>reward.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="telfind.aspx.cs">
+      <DependentUpon>telfind.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="telfind.aspx.designer.cs">
+      <DependentUpon>telfind.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AddOrder.ashx.cs">
+      <DependentUpon>AddOrder.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CheckPhone.ashx.cs">
+      <DependentUpon>CheckPhone.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Lookdetail.ashx.cs">
+      <DependentUpon>Lookdetail.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ShareNum.ashx.cs">
+      <DependentUpon>ShareNum.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mgmadmin\img\font\fontawesome-webfont.eot" />
+    <Content Include="mgmadmin\img\font\fontawesome-webfont.ttf" />
+    <Content Include="mgmadmin\img\font\fontawesome-webfont.woff" />
+    <Content Include="mgmadmin\img\font\FontAwesome.otf" />
+    <Content Include="mgmadmin\font\fontawesome-webfont.eot" />
+    <Content Include="mgmadmin\font\fontawesome-webfont.ttf" />
+    <Content Include="mgmadmin\font\fontawesome-webfont.woff" />
+    <Content Include="mgmadmin\font\FontAwesome.otf" />
+    <Content Include="Tools\AddOrder.ashx" />
+    <Content Include="Tools\CheckPhone.ashx" />
+    <None Include="Properties\PublishProfiles\mgm.pubxml" />
+    <Content Include="Tools\ShareNum.ashx" />
+    <Content Include="Tools\Lookdetail.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MGM.BLL\MGM.BLL.csproj">
+      <Project>{3904108f-589b-4df3-ab27-9e04ba79f9ab}</Project>
+      <Name>MGM.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MGM.Model\MGM.Model.csproj">
+      <Project>{013a36ae-28e4-4b5d-9b08-99da3a74b795}</Project>
+      <Name>MGM.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Microsoft.Common\Microsoft.Common.csproj">
+      <Project>{93ae95fc-7b61-4733-9933-8fe7b56931a9}</Project>
+      <Name>Microsoft.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WeChatJsSdk.SdkCore\WeChatJsSdk.SdkCore.csproj">
+      <Project>{34549153-ea71-462d-8c28-789e7750e161}</Project>
+      <Name>WeChatJsSdk.SdkCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23661</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:23661/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
