@@ -1,0 +1,4 @@
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.DBUtility\bin\Release\Microsoft.DBUtility.dll
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.DBUtility\bin\Release\Microsoft.DBUtility.pdb
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.DBUtility\obj\Release\Microsoft.DBUtility.dll
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.DBUtility\obj\Release\Microsoft.DBUtility.pdb

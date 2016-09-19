@@ -1,0 +1,21 @@
+c:\users\administrator\documents\visual studio 2012\Projects\WeChatJsSdk\WeChatJsSdk.SdkCore\bin\Release\WeChatJsSdk.SdkCore.dll
+c:\users\administrator\documents\visual studio 2012\Projects\WeChatJsSdk\WeChatJsSdk.SdkCore\bin\Release\WeChatJsSdk.SdkCore.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\WeChatJsSdk\WeChatJsSdk.SdkCore\bin\Release\WeCahtJsSdk.Utility.dll
+c:\users\administrator\documents\visual studio 2012\Projects\WeChatJsSdk\WeChatJsSdk.SdkCore\bin\Release\WeCahtJsSdk.Utility.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\WeChatJsSdk\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\WeChatJsSdk\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.dll
+c:\users\administrator\documents\visual studio 2012\Projects\WeChatJsSdk\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.pdb
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\bin\Release\WeChatJsSdk.SdkCore.dll
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\bin\Release\WeChatJsSdk.SdkCore.pdb
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\bin\Release\WeCahtJsSdk.Utility.dll
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\bin\Release\WeCahtJsSdk.Utility.pdb
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.csprojResolveAssemblyReference.cache
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.dll
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.pdb
+D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\bin\Release\WeChatJsSdk.SdkCore.dll
+D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\bin\Release\WeChatJsSdk.SdkCore.pdb
+D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\bin\Release\WeCahtJsSdk.Utility.dll
+D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\bin\Release\WeCahtJsSdk.Utility.pdb
+D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.csprojResolveAssemblyReference.cache
+D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.dll
+D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\WeChatJsSdk.SdkCore\obj\Release\WeChatJsSdk.SdkCore.pdb

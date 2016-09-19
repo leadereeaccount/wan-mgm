@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0;}
+
+
+.message{/*height:40px;*/ position: fixed;top: 100px;left: 500px; border: solid 5px #000; background-position: 10px center;background-repeat: no-repeat;background-size: 20px 20px;border-radius: 10px;opacity: 0;background-color:#fff}
+
+.message.success{background-image: url(../img/YesIco.png);}
+.message.error{background-image: url(../img/ErrorIco.png);}
+.message p{padding-left: 40px;padding-right: 30px;font-size: 14px;line-height: 25px;padding:10px;}

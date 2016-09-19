@@ -1,0 +1,6 @@
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.Common\bin\Release\Microsoft.Common.dll
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.Common\bin\Release\Microsoft.Common.pdb
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.Common\bin\Release\NPOI.dll
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.Common\obj\Release\Microsoft.Common.csprojResolveAssemblyReference.cache
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.Common\obj\Release\Microsoft.Common.dll
+M:\项目文件\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\04源码\MGM.Web\Microsoft.Common\obj\Release\Microsoft.Common.pdb
