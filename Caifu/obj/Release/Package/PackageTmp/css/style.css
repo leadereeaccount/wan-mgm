@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;}
+img{display: block;}
+body{position: relative;}
+
+body> img{width: 100%;}
+
+
+body a{display: block;width: 40%;position: absolute;left: 30%;top: 86.5%;}
+
+body a>img{width: 100%;}
+

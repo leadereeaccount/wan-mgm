@@ -6,7 +6,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\05发布\2016-09-19</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\公司项目\312 万达网贷公司 DE finance 品牌设计\040 MGM活动 20160901\05发布\2016-10-13</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
@@ -28,7 +28,7 @@
       <publishTime>09/18/2016 14:42:41</publishTime>
     </File>
     <File Include="bin/MGM.Web.dll">
-      <publishTime>09/19/2016 18:36:35</publishTime>
+      <publishTime>10/13/2016 17:44:53</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>12/07/2015 19:04:38</publishTime>
@@ -85,7 +85,7 @@
       <publishTime>09/16/2016 02:37:55</publishTime>
     </File>
     <File Include="bin/WeChatJsSdk.SdkCore.dll">
-      <publishTime>09/16/2016 02:37:55</publishTime>
+      <publishTime>10/13/2016 17:37:56</publishTime>
     </File>
     <File Include="css/style.css">
       <publishTime>09/19/2016 18:35:58</publishTime>
@@ -136,7 +136,7 @@
       <publishTime>09/16/2016 00:22:46</publishTime>
     </File>
     <File Include="img/remark/remarkbg1.jpg">
-      <publishTime>09/18/2016 23:44:56</publishTime>
+      <publishTime>10/13/2016 16:28:16</publishTime>
     </File>
     <File Include="img/remark/remarkbg2.jpg">
       <publishTime>09/18/2016 23:44:57</publishTime>
@@ -156,6 +156,9 @@
     <File Include="img/remark/shareimgico.jpg">
       <publishTime>09/19/2016 18:28:09</publishTime>
     </File>
+    <File Include="img/remarkbg1.jpg">
+      <publishTime>10/13/2016 16:27:42</publishTime>
+    </File>
     <File Include="img/reward/appewmimg.jpg">
       <publishTime>09/16/2016 00:22:46</publishTime>
     </File>
@@ -174,8 +177,11 @@
     <File Include="img/telfind/btnOkbg.png">
       <publishTime>09/16/2016 00:22:46</publishTime>
     </File>
+    <File Include="index.ashx">
+      <publishTime>10/13/2016 17:44:11</publishTime>
+    </File>
     <File Include="index.aspx">
-      <publishTime>09/18/2016 19:38:59</publishTime>
+      <publishTime>10/13/2016 17:17:26</publishTime>
     </File>
     <File Include="js/jquery-1.11.1.min.js">
       <publishTime>09/16/2016 00:22:46</publishTime>
@@ -184,7 +190,7 @@
       <publishTime>09/16/2016 00:22:46</publishTime>
     </File>
     <File Include="message.aspx">
-      <publishTime>09/19/2016 18:35:03</publishTime>
+      <publishTime>10/13/2016 16:40:40</publishTime>
     </File>
     <File Include="mgmadmin/css/Add.css">
       <publishTime>09/13/2016 11:11:55</publishTime>
@@ -487,10 +493,10 @@
       <publishTime>09/13/2016 09:49:14</publishTime>
     </File>
     <File Include="remark.aspx">
-      <publishTime>09/19/2016 18:29:37</publishTime>
+      <publishTime>10/13/2016 16:51:40</publishTime>
     </File>
     <File Include="reward.aspx">
-      <publishTime>09/16/2016 14:23:00</publishTime>
+      <publishTime>10/13/2016 17:06:28</publishTime>
     </File>
     <File Include="scripts/ai.0.22.19-build00125.js">
       <publishTime>09/13/2016 09:49:14</publishTime>
@@ -499,7 +505,7 @@
       <publishTime>09/13/2016 09:49:14</publishTime>
     </File>
     <File Include="telfind.aspx">
-      <publishTime>09/19/2016 18:31:17</publishTime>
+      <publishTime>10/13/2016 17:03:34</publishTime>
     </File>
     <File Include="Tools/AddOrder.ashx">
       <publishTime>09/16/2016 00:41:47</publishTime>

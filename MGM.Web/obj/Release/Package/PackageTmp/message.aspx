@@ -12,9 +12,7 @@
 
 	<body class="message">
 
-        <div class="ceshi">
-            <p>内部测试，请勿外发</p>
-        </div>
+        
         <div class="messagelogo">
               <img src="img/message/logoimg.png" />
         </div>

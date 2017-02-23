@@ -5,13 +5,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>万达网络信贷</title>
+    <title>万达商户银柜 推荐新户送话费</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-    <div class="ceshi">
-            <p>内部测试，请勿外发</p>
-        </div>
+   
     <div class="remarkbody1">
         <img src="img/remark/remarkbg1.jpg" />
         <a onclick="OpenShare()">

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\公司项目\311 万达财富公司 DE finance 品牌设计\021万达财富渠道推广效果管理\07发布\yingui2016-10-13</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>10/13/2016 17:50:22</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>10/13/2016 17:50:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>06/06/2016 15:40:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>06/06/2016 10:45:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>06/06/2016 15:40:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>06/06/2016 10:42:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <publishTime>12/01/2015 14:31:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.dll">
+      <publishTime>04/07/2014 12:26:14</publishTime>
+    </File>
+    <File Include="bin/System.IO.dll">
+      <publishTime>02/18/2015 17:07:08</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.dll">
+      <publishTime>02/18/2015 17:07:08</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.dll">
+      <publishTime>02/18/2015 17:07:08</publishTime>
+    </File>
+    <File Include="bin/WeCahtJsSdk.Utility.dll">
+      <publishTime>09/16/2016 02:37:55</publishTime>
+    </File>
+    <File Include="bin/WeChatJsSdk.SdkCore.dll">
+      <publishTime>10/13/2016 17:37:56</publishTime>
+    </File>
+    <File Include="bin/Yingui.dll">
+      <publishTime>10/13/2016 18:03:53</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>10/13/2016 17:52:21</publishTime>
+    </File>
+    <File Include="img/detailico.png">
+      <publishTime>10/13/2016 17:52:21</publishTime>
+    </File>
+    <File Include="img/img1.jpg">
+      <publishTime>10/13/2016 17:52:21</publishTime>
+    </File>
+    <File Include="img/img2.jpg">
+      <publishTime>10/13/2016 17:52:21</publishTime>
+    </File>
+    <File Include="img/shareimgico.jpg">
+      <publishTime>10/13/2016 17:56:28</publishTime>
+    </File>
+    <File Include="index.ashx">
+      <publishTime>10/13/2016 18:03:26</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>10/13/2016 17:57:44</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>10/13/2016 17:52:49</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.1.min.js">
+      <publishTime>10/13/2016 17:52:21</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/13/2016 17:50:22</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.19-build00125.js">
+      <publishTime>10/13/2016 17:50:22</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.19-build00125.min.js">
+      <publishTime>10/13/2016 17:50:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/13/2016 18:00:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

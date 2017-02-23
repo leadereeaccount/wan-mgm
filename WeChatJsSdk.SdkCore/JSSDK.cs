@@ -137,12 +137,62 @@ namespace WeChatJsSdk.SdkCore
         public SignPackage GetSignPackage(JsApiEnum jsapi)
         {
             HttpContext httpcontext = System.Web.HttpContext.Current;
-            string url = (!string.IsNullOrEmpty(httpcontext.Request.ServerVariables["HTTPS"])) && httpcontext.Request.ServerVariables["HTTPS"] != "off" ? "https://" : "http://";
-            url += httpcontext.Request.ServerVariables["HTTP_HOST"];
-            url += httpcontext.Request.ServerVariables["URL"];
-            url += string.IsNullOrEmpty(httpcontext.Request.ServerVariables["QUERY_STRING"]) ? "" :"?"+httpcontext.Request.ServerVariables["QUERY_STRING"];
+            string url = httpcontext.Request.Url.ToString();
+            WriteTextLog("url", url, DateTime.Now);
+            if (string.IsNullOrEmpty(httpcontext.Request.RawUrl))
+            {
+                url += "index.aspx";
+                WriteTextLog("url1", httpcontext.Request.RawUrl, DateTime.Now);
+            }
+
+
             return GetSignPackage(url, jsapi);
         }
+
+
+
+
+
+
+
+
+      
+            /// <summary>  
+            /// 写入日志到文本文件  
+            /// </summary>  
+            /// <param name="action">动作</param>  
+            /// <param name="strMessage">日志内容</param>  
+            /// <param name="time">时间</param>  
+            public void WriteTextLog(string action, string strMessage, DateTime time)
+            {
+                string path = AppDomain.CurrentDomain.BaseDirectory + @"System\Log\";
+                if (!Directory.Exists(path))
+                    Directory.CreateDirectory(path);
+
+                string fileFullPath = path + time.ToString("yyyy-MM-dd") + ".System.txt";
+                StringBuilder str = new StringBuilder();
+                str.Append("Time:    " + time.ToString() + "\r\n");
+                str.Append("Action:  " + action + "\r\n");
+                str.Append("Message: " + strMessage + "\r\n");
+                str.Append("-----------------------------------------------------------\r\n\r\n");
+                StreamWriter sw;
+                if (!File.Exists(fileFullPath))
+                {
+                    sw = File.CreateText(fileFullPath);
+                }
+                else
+                {
+                    sw = File.AppendText(fileFullPath);
+                }
+                sw.WriteLine(str.ToString());
+                sw.Close();
+            }
+     
+
+
+
+
+
         /// <summary>
         /// 获取jssdk签名配置对象
         /// </summary>

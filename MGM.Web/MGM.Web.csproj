@@ -138,6 +138,7 @@
     <Content Include="img\message\telico1.png" />
     <Content Include="img\message\zhizhaoico.png" />
     <Content Include="img\message\zhizhaoimg.png" />
+    <Content Include="img\remarkbg1.jpg" />
     <Content Include="img\remark\detailico.png" />
     <Content Include="img\remark\remarkbg1.jpg" />
     <Content Include="img\remark\remarkbg2.jpg" />
@@ -256,6 +257,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\LookNumDemo.cs" />
+    <Compile Include="index.ashx.cs">
+      <DependentUpon>index.ashx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -334,6 +338,7 @@
     <Content Include="mgmadmin\font\FontAwesome.otf" />
     <Content Include="Tools\AddOrder.ashx" />
     <Content Include="Tools\CheckPhone.ashx" />
+    <Content Include="index.ashx" />
     <None Include="Properties\PublishProfiles\mgm.pubxml" />
     <Content Include="Tools\ShareNum.ashx" />
     <Content Include="Tools\Lookdetail.ashx" />

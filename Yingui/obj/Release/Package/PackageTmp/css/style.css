@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;}
+
+.indextop{ width: 100%;display: table;position: relative;}
+.indextop img{display: block;width: 100%;}
+
+
+.indexbottom{float: left;width: 100%;height: 0;overflow: hidden;}
+.indexbottom img{width: 100%;display: block;}
+.indextop a.detail{display: block;width: 60%;position: absolute;left: 20%; bottom: 1%; background: url(../img/detailico.png) no-repeat bottom center;background-size: auto 12px;text-align: center;color: #fff;text-decoration: none;font-size: 14px;}
+.indextop a.detail p{padding-bottom: 20px;}
